@@ -1,0 +1,30 @@
+{
+  "name": "douban-robot",
+  "version": "1.0.0",
+  "description": "a douban robot which can reply posts automatically",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangkean/douban-robot.git"
+  },
+  "keywords": [
+    "douban",
+    "robot"
+  ],
+  "author": "Sam Yang (samyangcoder@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangkean/douban-robot/issues"
+  },
+  "homepage": "https://github.com/yangkean/douban-robot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "gm": "^1.23.0",
+    "node-schedule": "^1.2.3",
+    "node-tesseract": "^0.2.7",
+    "superagent": "^3.5.2"
+  }
+}
