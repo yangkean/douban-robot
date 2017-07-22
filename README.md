@@ -10,3 +10,7 @@ just for fun!
 3. `$ npm install`
 2. 修改 config.js 中的账号、密码、小组地址
 3. `$ node app.js`
+
+## Notice
+
+async/await support needs node >= 7.6
